@@ -1,0 +1,19 @@
+#!nsh
+#
+# Minimal startup script for AeroCore standalone configuration.
+#
+
+echo "[i] doing standalone AeroCOre startup..."
+
+#
+# Start the ORB
+#
+
+uorb start
+adc start
+
+lsm303d start
+l3gd20 start
+ms5611 start
+
+echo "[i] startup done"

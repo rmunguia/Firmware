@@ -5,7 +5,9 @@
 #
 # Use the configuration's ROMFS.
 #
-ROMFS_ROOT	 = $(PX4_BASE)/ROMFS/px4fmu_common
+#ROMFS_ROOT	 = $(PX4_BASE)/ROMFS/px4fmu_common
+#ROMFS_ROOT	 = $(PX4_BASE)/ROMFS/px4fmu_test
+ROMFS_ROOT	 = $(PX4_BASE)/ROMFS/px4_tosco
 
 #
 # Board support modules
